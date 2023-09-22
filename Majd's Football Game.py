@@ -385,11 +385,13 @@ def Game():
         if ((Answer) == name1):
             print("Correct")
             var.NS = var.NS + 1
+            var.T = var.T + 1
             print(f'Your score is: {var.NS} in {var.T} tries')
             print(f'---------------------')
             Game()
         else:
             print ("incorrect Answer")
+            var.T = var.T + 1
             print(f'Your score is: {var.NS} in {var.T} tries')
             print(F'correct Answer is: {Name} {name1}!')
             print(f'---------------------')
