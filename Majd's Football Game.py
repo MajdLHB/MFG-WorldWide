@@ -154,7 +154,7 @@ def Game():
     "Javier Hernandez - Mexico",
     "Luis Figo - Portugal",
     "Andrea Pirlo - Italy",
-    "Alessandro Del Piero - Italy",
+    "Alessandro Del-Piero - Italy",
     "Samuel Eto'o - Cameroon",
     "Didier Drogba - Ivory-Coast",
     "Zlatan Ibrahimovic - Sweden",
