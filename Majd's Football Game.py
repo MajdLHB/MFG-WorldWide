@@ -3,6 +3,7 @@ import random
 
 class var():
     NS = 0
+    T = 0
 
 var()
 def Game():
@@ -353,7 +354,21 @@ def Game():
     "Ali Maaloul - Tunisia",
     "Saber Khalifa - Tunisia",
     "Yassine Chikhaoui - Tunisia",
-    "Hamdi Harbaoui - Tunisia"
+    "Hamdi Harbaoui - Tunisia",
+    "Hannibal Mejbri - Tunisia",
+    "Mouez Hassen - Tunisia",
+    "Dylan Bronn - Tunisia",
+    "Ellyes Skhiri - Tunisia",
+    "Naïm Sliti - Tunisia",
+    "Recardo Kaka - Brazil",
+    "Diego Costa - Spain",
+    "Mario Gotze - Germany",
+    "Javier Pastore - Argentina",
+    "Andy Delort - France",
+    "Sofiane Boufal - Morocco",
+    "Ahmed Hegazi - Egypt",
+    "Yann Karamoh - Ivory-Coast",
+    "Leandro Paredes - Argentina",
     ]
 
     P1 = random.choice(list1)
@@ -370,12 +385,12 @@ def Game():
         if ((Answer) == name1):
             print("Correct")
             var.NS = var.NS + 1
-            print(f'Your score is: {var.NS}')
+            print(f'Your score is: {var.NS} in {var.T} tries')
             print(f'---------------------')
             Game()
         else:
             print ("incorrect Answer")
-            print(f'Your score is: {var.NS}')
+            print(f'Your score is: {var.NS} in {var.T} tries')
             print(F'correct Answer is: {Name} {name1}!')
             print(f'---------------------')
             Game()
