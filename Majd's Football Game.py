@@ -325,7 +325,7 @@ def Game():
     "Mert Muldur - Turkey",
     "Orkun Kökçü - Turkey",
     "Dorukhan Toköz - Turkey",
-    "Ali Yavuz Kol - Turkey",
+    "Ali Yavuz-Kol - Turkey",
     "Merih Demiral - Turkey",
     "Necip Uysal - Turkey",
     "Okay Yokuslu - Turkey",
